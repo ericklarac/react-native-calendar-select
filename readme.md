@@ -2,6 +2,8 @@
 
 A date picker component like Airbnb. You can select a date period from the calendar modal.
 
+***Features added by elara*** Spanish language support ('es')
+
 
 ### Examples
 
