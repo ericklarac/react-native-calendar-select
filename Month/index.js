@@ -34,6 +34,10 @@ export default class Month extends Component {
     'en': [
       'January', 'February', 'March', 'April', 'May', 'June',
       'July', 'August', 'September', 'October', 'November', 'December'
+    ],
+    'es': [
+       'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
+       'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
     ]
   }
   _getMonthText () {
@@ -48,7 +52,7 @@ export default class Month extends Component {
     if (year === y) {
       return Month.I18N_MAP[i18n][m];
     } else {
-      if (i18n === 'en') {
+      if (i18n === 'en' || i18n === 'es') {
         return `${Month.I18N_MAP[i18n][m]}, ${y}`;
       }
       return month.format('YYYY年M月');

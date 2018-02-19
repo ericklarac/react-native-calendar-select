@@ -74,7 +74,7 @@ export default class calendar extends Component {
           <Text style={styles.font}>{text}</Text>
         </View>
         <Calendar
-          i18n="en"
+          i18n="es"
           color={color}
           ref={(calendar) => {this.calendar = calendar;}}
           format="YYYYMMDD"

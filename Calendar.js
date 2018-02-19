@@ -72,7 +72,19 @@ export default class Calendar extends Component {
         'clear': 'クリア'
       },
       'date': 'M月D日'
-    }
+    },
+    'es': {
+      'w': ['', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab', 'Dom'],
+      'weekday': ['', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'],
+      'text': {
+        'start': 'Inicio',
+        'end': 'Fin',
+        'date': 'Fecha',
+        'save': 'Guardar',
+        'clear': 'Reset'
+      },
+      'date': 'DD / MM'
+    },
   }
   constructor (props) {
     super(props);
