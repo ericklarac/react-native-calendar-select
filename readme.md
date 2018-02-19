@@ -2,8 +2,8 @@
 
 A date picker component like Airbnb. You can select a date period from the calendar modal.
 
-***Features added by elara*** Spanish language support ('es')
-
+## ***Features added by elara*** Spanish language support ('es').
+### ***Instead of importing from react-native-calendar-select import from react-native-calendar-select-elara***
 
 ### Examples
 
@@ -35,13 +35,13 @@ A date picker component like Airbnb. You can select a date period from the calen
 **install from npm**
 
 ``` shell
-npm install --save react-native-calendar-select
+npm install --save react-native-calendar-select-elara
 ```
 
 **import in project**
 
 ``` js
-import Calendar from 'react-native-calendar-select';
+import Calendar from 'react-native-calendar-select-elara';
 ```
 
 ```js
